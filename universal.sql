@@ -52,8 +52,8 @@ VALUES('galaxy1','description1',12.56,'A', 15),
       ('galaxy2','description2',10.56,'A', 1500),
       ('galaxy3','description3',13.56,'B', 100),
       ('galaxy4','description4',14.56,'B', 56),
-      ('galaxy5','description5',16.56,'C', 68),
-      ('galaxy6','description6',19.56,'C', 5);
+      ('galaxy5','description5',16.56,'C', 63),
+      ('galaxy6','description6',13.56,'C', 5);
 
 
 INSERT INTO star(name, description, age_in_millions_of_years, distance_from_earth, galaxy_id)
@@ -66,40 +66,40 @@ VALUES('star1','description1',12.56, 15, 1),
 
 
 INSERT INTO planet(name, description, age_in_millions_of_years, is_spherical, distance_from_earth, star_id)
-VALUES('p1','description1',12.56, true, 15, 7),
-('p2','description1',12.56, true, 15, 7),
-('p3','description1',12.56, true, 15, 7),
-('p4','description1',12.56, true, 15, 8),
-('p5','description1',12.56, true, 15, 9),
-('p6','description1',12.56, true, 15, 10),
-('p7','description1',12.56, true, 15, 11),
-('p8','description1',12.56, true, 15, 12),
-('p9','description1',12.56, true, 15, 7),
-('p10','description1',12.56, true, 15, 8),
-('p11','description1',12.56, true, 15, 9),
-('p12','description1',12.56, true, 15, 10);
+VALUES('p1','description1',12.56, true, 15, 1),
+('p2','description1',12.56, true, 15, 1),
+('p3','description1',12.56, true, 15, 1),
+('p4','description1',12.56, true, 15, 1),
+('p5','description1',12.56, true, 15, 1),
+('p6','description1',12.56, true, 15, 1),
+('p7','description1',12.56, true, 15, 1),
+('p8','description1',12.56, true, 15, 1),
+('p9','description1',12.56, true, 15, 1),
+('p10','description1',12.56, true, 15, 1),
+('p11','description1',12.56, true, 15, 1),
+('p12','description1',12.56, true, 15, 1);
 
 INSERT INTO moon(name, description, age_in_millions_of_years, is_spherical, distance_from_earth, planet_id)
-VALUES('m1','description1',12.56, true, 15, 25),
-('m2','description1',12.56, true, 15, 25),
-('m3','description1',12.56, true, 15, 25),
-('m4','description1',12.56, true, 15, 26),
-('m5','description1',12.56, true, 15, 26),
-('m6','description1',12.56, true, 15, 27),
-('m7','description1',12.56, true, 15, 27),
-('m8','description1',12.56, true, 15, 27),
-('m9','description1',12.56, true, 15, 28),
-('m10','description1',12.56, true, 15, 28),
-('m11','description1',12.56, true, 15, 28),
-('m12','description1',12.56, true, 15, 28),
-('m13', 'd2', 12.56, true, 15, 29),
-('m14', 'd2', 12.56, true, 15, 29),
-('m15', 'd2', 12.56, true, 15, 30),
-('m16', 'd2', 12.56, true, 15, 30),
-('m17', 'd2', 12.56, true, 15, 31),
-('m18', 'd2', 12.56, true, 15, 31),
-('m19', 'd2', 12.56, true, 15, 32),
-('m20', 'd2', 12.56, true, 15, 32);
+VALUES('m1','description1',12.56, true, 15, 1),
+('m2','description1',12.56, true, 15, 1),
+('m3','description1',12.56, true, 15, 1),
+('m4','description1',12.56, true, 15, 1),
+('m5','description1',12.56, true, 15, 1),
+('m6','description1',12.56, true, 15, 1),
+('m7','description1',12.56, true, 15, 1),
+('m8','description1',12.56, true, 15, 1),
+('m9','description1',12.56, true, 15, 1),
+('m10','description1',12.56, true, 15, 1),
+('m11','description1',12.56, true, 15, 1),
+('m12','description1',12.56, true, 15, 1),
+('m13', 'd2', 12.56, true, 15, 1),
+('m14', 'd2', 12.56, true, 15, 1),
+('m15', 'd2', 12.56, true, 15, 1),
+('m16', 'd2', 12.56, true, 15, 1),
+('m17', 'd2', 12.56, true, 15, 1),
+('m18', 'd2', 12.56, true, 15, 1),
+('m19', 'd2', 12.56, true, 15, 1),
+('m20', 'd2', 12.56, true, 15, 1);
 
 
 INSERT INTO astraiod(name, description, is_hellical)
